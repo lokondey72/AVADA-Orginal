@@ -1,0 +1,521 @@
+/*==============================
+Extra Small responsive css start 
+==============================*/
+@media (max-width: 575px) { 
+    .common_button {
+        gap: 18px;
+        align-items: center;
+        flex-direction: column;
+    }
+    .common_button a {
+        padding: 15px 40px;
+    }
+    /* common responsive end */
+    .menuber button{
+        color: #fff;
+        font-size: 24px;
+    }
+    .menuber .nav_logo {
+        width: 150px;
+    }
+    #banner {
+        padding: 120px 0 60px;
+    }
+    .banner_content h1 {
+        width: 100%;
+        font-size: 34px;
+        margin-bottom: 28px;
+    }
+    .menuber ul {
+        gap: 34px;
+    }
+    .menuber ul li a {
+        text-align: center;
+    }
+    .menuber .navbar-collapse {
+        border-radius: 10px;
+        background: #33414a;
+        padding: 10px 0;
+    }
+    .menuber .navber_btn a {
+        padding: 12px 45px;
+    }
+    .menuber ul li ul {
+        display: none;
+    }
+    /* adventure responsive start */
+    #adventure {
+        padding: 60px 0;
+    }
+    .common_items h4 {
+        font-size: 24px;
+    }
+    .common_items h2 {
+        font-size: 34px;
+    }
+    .adventure_items h2 {
+        padding: 5px 0 21px;
+        margin-bottom: 31px;
+    }
+    .adventure_items ul li span {
+        width: 40px;
+        height: 28px;
+    }
+    .adventure_glry {
+        gap: 20px;
+        padding-top: 12px;
+    }
+    .counter_items {
+        height: 150px;
+        margin-top: 60px;
+    }
+    .counter_items h3 {
+        font-size: 55px;
+    }
+    /* activities responsive css start */
+    #activities {
+        padding-top: 60px;
+    }
+    .right p {
+        margin-top: 30px;
+    }
+    .activities_items {
+        margin-bottom: 15px;
+    }
+    .activities_margin {
+        margin: 60px 0 30px;
+    }
+    .activities_buttom h3 {
+        font-size: 80px;
+        margin: 40px 0 25px;
+    }
+    .activities_shap1 {
+        top: -55px;
+        left: -128px;
+    }
+    .extreme_items h3 {
+        font-size: 34px;
+        padding: 20px 0 30px;
+    }
+    .extreme_items p {
+        font-size: 24px;
+    }
+    .sports_items {
+	    width: 398px;
+    }
+    .sports_body {
+	gap: 25px;
+	flex-direction: column;
+	align-items: center;
+    }
+    /* choose responsive css start */
+    #choose {
+        padding: 120px 0 60px;
+    }
+    .choose_head h4 {
+        font-size: 18px;
+    }
+    .choose_head h2 {
+        font-size: 24px;
+        padding: 22px 0;
+    }
+    .choose_detail p {
+        width: 100%;
+    }
+    /* news responsive css start */
+    .news_items {
+        padding-bottom: 60px;
+    }
+    .news_items p {
+        width: 100%;
+        padding: 0;
+    }
+    .blog_img {
+        margin-top: 10px;
+    }
+    #sponsor {
+        padding: 60px 0 40px;
+    }
+    .sponsor_img {
+        text-align: center;
+        padding-bottom: 15px;
+    }
+    /* footer responsive css start */
+    #footer {
+        background-image: none !important;
+    }
+    .footer_logo {
+        padding-bottom: 45px;
+        width: 150px;
+    }
+    .footer_button a {
+        width: 130px;
+    }
+    #footer {
+        padding-top: 50px;
+        padding-bottom: 60px;
+        padding-left: 20px;
+    }
+    .footer_items p {
+        margin-bottom: 40px;
+    }
+    .contact_us {
+        padding-top: 40px;
+        gap: 15px;
+    }
+}
+/*==============================
+Extra Small responsive css start 
+==============================*/
+
+/*========================
+Small responsive css start 
+========================*/
+@media (min-width: 576px) and (max-width: 767px) { 
+    .common_button {
+        gap: 18px;
+        align-items: center;
+        flex-direction: row;
+    }
+    .common_button a {
+        padding: 15px 40px;
+    }
+    .common_items h2 {
+        font-size: 40px;
+    }
+    /* common responsive end */
+    .menuber button{
+        color: #fff;
+        font-size: 24px;
+    }
+    .menuber .nav_logo {
+        width: 200px;
+    }
+    #banner {
+        padding: 120px 0 60px;
+    }
+    .banner_content h1 {
+        width: 100%;
+        font-size: 40px;
+    }
+    .menuber ul {
+        gap: 35px;
+    }
+    .menuber ul li a {
+        text-align: center;
+    }
+    .menuber .navbar-collapse {
+        border-radius: 10px;
+        background: #33414a;
+        padding: 10px 0;
+    }
+    .menuber .navber_btn a {
+        padding: 12px 45px;
+    }
+    .menuber ul li ul {
+        display: none;
+    }
+    /* adventure responsive start */
+    #adventure {
+        padding: 60px 0;
+    }
+    .adventure_items h2 {
+        padding: 5px 0 21px;
+        margin-bottom: 31px;
+    }
+    .adventure_items ul li span {
+        width: 30px;
+        height: 30px;
+    }
+    .adventure_glry {
+        gap: 20px;
+        padding-top: 12px;
+    }
+    .counter_items {
+        height: 150px;
+        margin-top: 60px;
+    }
+    .counter_items h3 {
+        font-size: 80px;
+    }
+    /* activities responsive css start */
+    #activities {
+        padding-top: 60px;
+    }
+    .right p {
+        margin-top: 30px;
+    }
+    .activities_items {
+        margin-bottom: 15px;
+    }
+    .activities_margin {
+        margin: 60px 0 30px;
+    }
+    .activities_buttom h3 {
+        font-size: 80px;
+        margin: 40px 0 25px;
+    }
+    .activities_shap1 {
+        top: -55px;
+        left: -150px;
+    }
+    /* extreme responsive css start */
+    .extreme_items h3 {
+        font-size: 34px;
+        padding: 20px 0 30px;
+    }
+    .extreme_items p {
+        font-size: 24px;
+    }
+    .extreme_btn {
+	    margin: 50px 0 60px;
+    }
+    /* sports responsive css start */
+    .sports_items {
+	    width: 398px;
+    }
+    .sports_body {
+	gap: 25px;
+	flex-direction: column;
+	align-items: center;
+}
+    /* choose responsive css start */
+    #choose {
+        padding: 120px 0 60px;
+    }
+    .choose_head h4 {
+        font-size: 22px;
+    }
+    .choose_head h2 {
+        font-size: 28px;
+        padding: 25px 0;
+    }
+    .choose_detail p {
+	    width: 300px;
+	    margin: 0 auto;
+    }
+    /* news responsive css start */
+    .news_items {
+        padding-bottom: 60px;
+    }
+    .news_items p {
+        width: 100%;
+        padding: 0;
+    }
+    .blog_img {
+        margin-top: 10px;
+    }
+    #sponsor {
+        padding: 60px 0 40px;
+    }
+    .sponsor_img {
+        text-align: center;
+        padding-bottom: 15px;
+    }
+    /* footer responsive css start */
+    #footer {
+        background-image: none !important;
+    }
+    .footer_logo {
+        padding-bottom: 45px;
+        width: 150px;
+    }
+    .footer_button a {
+        width: 130px;
+    }
+    #footer {
+        padding-top: 50px;
+        padding-bottom: 60px;
+        padding-left: 20px;
+    }
+    .footer_items p {
+        margin-bottom: 40px;
+    }
+    .contact_us {
+        padding-top: 40px;
+        gap: 15px;
+    }
+    .contact_us h5 {
+	width: 156px;
+    }
+}
+/*========================
+Small responsive css start 
+========================*/
+
+/*=========================
+Medium responsive css start 
+=========================*/
+@media (min-width: 768px) and (max-width: 991px) { 
+    .menuber button{
+        color: #fff;
+        font-size: 28px;
+    }
+    .menuber .nav_logo {
+        width: 250px;
+    }
+    #banner {
+        padding: 180px 0 110px;
+    }
+    .banner_content h1 {
+        width: 100%;
+        font-size: 64px;
+    }
+    .menuber ul {
+        gap: 35px;
+    }
+    .menuber ul li a {
+        text-align: center;
+    }
+    .menuber .navbar-collapse {
+        border-radius: 10px;
+        background: #33414a;
+        padding: 10px 0;
+    }
+    .menuber .navber_btn a {
+        padding: 12px 45px;
+    }
+    .menuber ul li ul {
+        display: none;
+    }
+    /* adventure responsive start */
+    .adventure_glry {
+        padding-top: 15px;
+    }
+    .counter_items {
+        height: 150px;
+    }
+    /* activities responsive css start */
+    .activities_items {
+        margin-bottom: 15px;
+    }
+    .activities_buttom h3 {
+        font-size: 80px;
+    }
+    .activities_shap1 {
+        top: -55px;
+        left: -55px;
+    }
+    /* extreme responsive css start */
+    .extreme_items h3 {
+        font-size: 34px;
+        padding: 20px 0 30px;
+    }
+    .extreme_items p {
+        font-size: 24px;
+    }
+    .extreme_btn {
+	    margin: 50px 0 60px;
+    }
+    /* sports responsive css start */
+    .sports_items {
+	    width: 398px;
+    }
+    .sports_body {
+	gap: 25px;
+	flex-direction: column;
+	align-items: center;
+    }
+    /* choose responsive css start */
+    #choose {
+        padding: 120px 0 60px;
+    }
+    .choose_head h4 {
+        font-size: 22px;
+    }
+    .choose_head h2 {
+        font-size: 28px;
+        padding: 25px 0;
+    }
+    .choose_detail p {
+	    width: 300px;
+	    margin: 0 auto;
+    }
+    /* news responsive css start */
+    .news_items {
+        padding-bottom: 60px;
+    }
+    .news_items p {
+        width: 100%;
+        padding: 0;
+    }
+    .blog_items {
+        width: 410px;
+        margin: 0 auto;
+    }
+    .blog_img {
+        margin-top: 10px;
+    }
+    #sponsor {
+        padding: 60px 0 40px;
+    }
+    .sponsor_img {
+        text-align: center;
+        padding-bottom: 15px;
+    }
+    /* footer responsive css start */
+    #footer {
+        background-image: none !important;
+    }
+    .footer_logo {
+        padding-bottom: 45px;
+        width: 150px;
+    }
+    .footer_button a {
+        width: 130px;
+    }
+    #footer {
+        padding-top: 50px;
+        padding-bottom: 60px;
+        padding-left: 20px;
+    }
+    .footer_items p {
+        margin-bottom: 40px;
+    }
+    .contact_us {
+        padding-top: 40px;
+        gap: 15px;
+    }
+    .contact_us h5 {
+	width: 156px;
+    }
+}
+/*=========================
+Medium responsive css start 
+=========================*/
+
+@media (min-width: 992px) and (max-width: 1199px) { 
+    .menuber ul {
+        gap: 4px;
+    }
+    .adventure_glry {
+        gap: 25px;
+        padding-top: 28px;
+    }
+    .activities_buttom h3 {
+        font-size: 140px;
+    }
+    .sports_body {
+        gap: 20px;
+    }
+    .choose_detail p {
+        width: 100%;
+    }
+    .news_items p {
+        width: 100%;
+    }
+    #footer {
+        background-image: none !important;
+        padding-top: 75px;
+        padding-bottom: 80px;
+        padding-left: 200px;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1399px) { 
+    #footer {
+        padding-top: 35px;
+        padding-bottom: 25px;
+    }
+}
+
+@media (min-width: 1400px) { }
